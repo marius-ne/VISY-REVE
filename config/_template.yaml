@@ -1,0 +1,25 @@
+base_path_airbus: ".../Data/AIRBUS_GSTP/MAN-DATA-L1"
+mesh_path_airbus: ".../Data/AIRBUS_GSTP/MAN-DATA-L1/metadata/model.obj"
+keypoints_path_airbus: ".../Data/keypoints/airbus_keypoints.json"
+model_path_airbus: ".../{REPO}/assets/model_weights/AIRBUS_best_V1.pth"
+model_config_path_airbus: ".../{REPO}/training/experiments/coco/hrnet/w48_384x288_adam_lr1e-3_airbus_V1.yaml"
+
+base_path_speed: ".../Data/SPEED"
+mesh_path_speed: ".../Data/SHIRT/models/TangoV16.obj"
+keypoints_path_speed: ".../Data/keypoints/TangoV12_keypoints_8.json"
+
+base_path_shirt: ".../Data/SHIRT"
+
+base_path_speed_plus: ".../Data/SPEED+"
+model_path_speed_plus: ".../{REPO}/assets/model_weights/SPEED+_best_V2.pth"
+model_config_path_speed_plus: ".../{REPO}/training/experiments/coco/hrnet/w48_384x288_adam_lr1e-3_speed+_V2.yaml"
+
+base_path_swisscube: ".../Data/SWISSCUBE/SwissCube_1.0"
+mesh_path_swisscube: ".../Data/SWISSCUBE/SwissCube_1.0/models/obj_000001.obj"
+keypoints_path_swisscube: ".../Data/keypoints/swisscube_cube_keypoints.json"
+model_path_swisscube: ".../{REPO}/assets/model_weights/SWISSCUBE_best_V2.pth"
+model_config_path_swisscube: ".../{REPO}/training/experiments/coco/hrnet/w48_384x288_adam_lr1e-3_swisscube_V2.yaml"
+
+base_path_urso: ".../Data/URSO"
+mesh_path_urso: ".../Data/URSO/Soyuz.obj"
+keypoints_path_urso: ".../Data/keypoints/urso_interior_keypoints.json"

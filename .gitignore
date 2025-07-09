@@ -1,0 +1,74 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.pot
+*.mo
+*.sqlite3
+*.db
+*.DS_Store
+.env
+.env.*
+.idea/
+.mypy_cache/
+.pytest_cache/
+.coverage
+.tox/
+.cache/
+*.cover
+htmlcov/
+*.orig
+*.bak
+*.lprof
+*.swp
+*.swo
+*.~ 
+*.tmp
+*.out
+*.log
+*.gz
+*.zip
+*.tar
+*.tgz
+*.tar.gz
+*.ipynb_checkpoints
+__pypackages__/
+
+
+# Poetry
+poetry.lock
+
+# NN stuff
+training/
+training/__init__.py
+
+# Old files
+ignore/
+
+# Frames for videos
+frames/
+
+# Large asset files
+assets/
+
+# Hidden media files
+media/Paper
+media/plotly
+media/videos
+
+# Own config
+config/marius.yaml
+
+# Poetry config
+poetry.toml
